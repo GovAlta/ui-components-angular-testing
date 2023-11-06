@@ -10,8 +10,8 @@
   },
   "private": true,
   "dependencies": {
-    "@abgov/angular-components": "^2.5.0",
-    "@abgov/web-components": "^1.14.0",
+    "@abgov/angular-components": "/Users/crims/Documents/Development/GoA/ui-components/dist/libs/angular-components",
+    "@abgov/web-components": "/Users/crims/Documents/Development/GoA/ui-components/dist/libs/web-components",
     "@angular/animations": "^16.2.3",
     "@angular/common": "^16.2.3",
     "@angular/compiler": "^16.2.3",

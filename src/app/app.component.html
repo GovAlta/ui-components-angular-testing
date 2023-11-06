@@ -1,31 +1,66 @@
-<goa-one-column-layout>
+<goa-two-column-layout maxcontentwidth="1400px" navcolumnwidth="30ch">
   <section slot="header">
     <goa-microsite-header
-      type="beta"
-      version="Angular 1.0"
-      feedbackUrl="https://github.com/GovAlta/ui-components/issues/new/choose">
-    </goa-microsite-header>
-    <goa-app-header url="/" heading="Design system templates" maxContentWidth="100%">
+      type="alpha"
+      level="alpha"
+      version="UAT"
+    ></goa-microsite-header>
+    <goa-app-header heading="Design Systems" maxcontentwidth="1400px">
+      <a href="#">Support</a>
+      <goa-app-header-menu heading="Tickets" leadingIcon="ticket">
+        <a href="#">Cases</a>
+        <a href="#">Payments</a>
+        <a href="#">Outstanding</a>
+      </goa-app-header-menu>
+      <a href="#" className="interactive">Sign in</a>
     </goa-app-header>
   </section>
 
-  <goa-page-block width="904px">
-    <router-outlet></router-outlet>
-  </goa-page-block>
-
-  <section slot="footer">
-    <goa-app-footer maxContentWidth="100%">
-      <goa-app-footer-meta-section slot="meta">
-        <a href="https://goa-dio.slack.com/archives/C02PLLT9HQ9">
-          Get help
-        </a>
-        <a href="https://goa-dio.atlassian.net/wiki/spaces/DS/pages/2342813697/Design+System+Drop-in+hours">
-          Drop-in Hours
-        </a>
-        <a href="https://github.com/GovAlta/ui-components/issues/new/choose">
-          Contribute
-        </a>
-      </goa-app-footer-meta-section>
-    </goa-app-footer>
+  <section slot="nav">
+    <goa-side-menu>
+      <goa-side-menu-group heading="Components">
+        <a routerLink="/accordion"> Accordion </a>
+        <a routerLink="/badge"> Badge </a>
+        <a routerLink="/button"> Button </a>
+        <a routerLink="/button-group"> Button Group </a>
+        <a routerLink="/calendar"> Calendar </a>
+        <a routerLink="/callout"> Callout </a>
+        <a routerLink="/checkbox"> Checkbox </a>
+        <a routerLink="/chip"> Chip </a>
+        <a routerLink="/circular-progress"> Circular Progress </a>
+        <a routerLink="/container"> Container </a>
+        <a routerLink="/datepicker"> DatePicker </a>
+        <a routerLink="/details"> Details </a>
+        <a routerLink="/dropdown"> Dropdown </a>
+        <a routerLink="/file-upload"> File Upload </a>
+        <a routerLink="/form-stepper"> Form Stepper </a>
+        <a routerLink="/hero-banner"> Hero Banner </a>
+        <a routerLink="/icon"> Icon </a>
+        <a routerLink="/icon-button"> Icon Button </a>
+        <a routerLink="/input"> Input </a>
+        <a routerLink="/modal"> Modal </a>
+        <a routerLink="/notification-banner"> Notification Banner </a>
+        <a routerLink="/pagination"> Pagination </a>
+        <a routerLink="/popover"> Popover </a>
+        <a routerLink="/radio"> Radio </a>
+        <a routerLink="/side-menu"> Side Menu </a>
+        <a routerLink="/skeleton"> Skeleton </a>
+        <a routerLink="/table"> Table </a>
+        <a routerLink="/tabs"> Tabs </a>
+        <a routerLink="/textarea"> TextArea </a>
+        <a routerLink="/tooltip"> Tooltip </a>
+      </goa-side-menu-group>
+      <goa-side-menu-group heading="Utils">
+        <a routerLink="/block"> Block </a>
+        <a routerLink="/divider"> Divider </a>
+        <a routerLink="/form-item"> Form Item </a>
+        <a routerLink="/grid"> Grid </a>
+        <a routerLink="/spacer"> Spacer </a>
+      </goa-side-menu-group>
+    </goa-side-menu>
   </section>
-</goa-one-column-layout>
+
+  <router-outlet></router-outlet>
+
+  <goa-app-footer slot="footer" maxcontentwidth="1400px"></goa-app-footer>
+</goa-two-column-layout>
