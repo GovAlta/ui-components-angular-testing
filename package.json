@@ -10,8 +10,8 @@
   },
   "private": true,
   "dependencies": {
-    "@abgov/angular-components": "/Users/crims/Documents/Development/GoA/ui-components/dist/libs/angular-components",
-    "@abgov/web-components": "/Users/crims/Documents/Development/GoA/ui-components/dist/libs/web-components",
+    "@abgov/angular-components": "/Users/radha/Documents/GitHub/ui-components/dist/libs/angular-components",
+    "@abgov/web-components": "/Users/radha/Documents/GitHub/ui-components/dist/libs/web-components",
     "@angular/animations": "^16.2.3",
     "@angular/common": "^16.2.3",
     "@angular/compiler": "^16.2.3",
@@ -30,6 +30,7 @@
     "@angular/cli": "^16.2.1",
     "@angular/compiler-cli": "^16.2.3",
     "@types/jasmine": "^4.3.5",
+    "cypress": "^13.6.2",
     "jasmine-core": "^5.1.1",
     "karma": "^6.4.2",
     "karma-chrome-launcher": "^3.2.0",
