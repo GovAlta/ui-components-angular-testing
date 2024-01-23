@@ -77,7 +77,7 @@ import { TooltipComponent } from './tooltip/tooltip.component';
     TableComponent,
     TabsComponent,
     TextAreaComponent,
-    TooltipComponent
+    TooltipComponent,
   ],
   imports: [
     BrowserModule,
